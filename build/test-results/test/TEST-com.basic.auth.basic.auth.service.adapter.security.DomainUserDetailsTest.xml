@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.basic.auth.basic.auth.service.adapter.security.DomainUserDetailsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-22T08:44:00" hostname="MacBook-Pro-od-Petar.local" time="0.003">
+  <properties/>
+  <testcase name="should return correct user details()" classname="com.basic.auth.basic.auth.service.adapter.security.DomainUserDetailsTest" time="0.002"/>
+  <testcase name="should return correct authorities()" classname="com.basic.auth.basic.auth.service.adapter.security.DomainUserDetailsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
