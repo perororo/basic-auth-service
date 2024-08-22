@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-22T08:43:59" hostname="MacBook-Pro-od-Petar.local" time="0.096">
+<testsuite name="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-22T09:23:00" hostname="MacBook-Pro-od-Petar.local" time="0.085">
   <properties/>
-  <testcase name="loadUserByUsername should return UserDetails when user is found()" classname="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" time="0.091"/>
+  <testcase name="loadUserByUsername should return UserDetails when user is found()" classname="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" time="0.08"/>
   <testcase name="loadUserByUsername should throw UsernameNotFoundException when user is not found()" classname="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/perorororo/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.18/417558ea01fe9f0e8a94af28b9469d281c4e3984/byte-buddy-agent-1.14.18.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

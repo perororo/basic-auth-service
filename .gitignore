@@ -1,0 +1,36 @@
+# Ignore Gradle build files
+.gradle/
+build/
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore Docker-related files (if you want to exclude Docker-related temp files)
+docker-compose.override.yml
+
+# Ignore compiled Kotlin files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore test results and reports
+build/reports/
+build/test-results/
+
+# Ignore other common temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore specific local files (optional)
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore local environment configurations (optional, adjust as needed)
+local.properties
