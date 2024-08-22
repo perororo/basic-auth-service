@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-08-22T09:23:00" hostname="MacBook-Pro-od-Petar.local" time="0.085">
-  <properties/>
-  <testcase name="loadUserByUsername should return UserDetails when user is found()" classname="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" time="0.08"/>
-  <testcase name="loadUserByUsername should throw UsernameNotFoundException when user is not found()" classname="com.basic.auth.basic.auth.service.adapter.security.CustomUserDetailsServiceTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
