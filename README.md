@@ -215,5 +215,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For questions or support, contact the maintainers at:
 
-- **Email**: support@example.com
-- **GitHub Issues**: [Open an Issue](https://github.com/<repo-owner>/basic-auth-service/issues)
+- **Email**: petarprole@gmail.com
