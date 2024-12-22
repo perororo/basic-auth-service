@@ -12,7 +12,7 @@ spring:
 basic:
   auth:
     email: "admin@google.com"
-    password: "adminpassword"
+    password: "{bcrypt}$2a$10$depbxfxaEq9qWNET/kKKmO9y4sX6z1NH8aTsDcB9ZY2AI63CTTrOi"
 
 security:
   jwt:

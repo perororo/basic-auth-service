@@ -38,11 +38,11 @@ class SecurityConfig(
                 matcherRegistry.anyRequest().authenticated()
             }
             .formLogin(Customizer.withDefaults())
-//            .httpBasic(Customizer.withDefaults())
             .sessionManagement { sessionManagement ->
                 sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
             }
             .csrf { it.disable() }
+            .cors { it.disable() }
             .authenticationProvider(authenticationProvider(customUserDetailsService))
             .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter::class.java)
 
